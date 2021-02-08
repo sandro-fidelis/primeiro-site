@@ -1,0 +1,126 @@
+
+
+#interface{
+    background-color: white;
+    width: 1000px;
+    max-width:100%;
+    margin: -20px auto 0px auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#interface h1{
+    font-size: 30pt;
+}
+
+header#cabecalho{
+    border-bottom: solid black 3px;
+}
+
+header#cabecalho hgroup img{
+    width: 200px;
+    padding-top:50px;
+    padding-left: 90px;
+}
+
+header#cabecalho h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    top: 100px;
+    margin-left:50px;
+}
+
+#slider{
+    position: absolute;
+    max-width: 600px;
+    top: 40px;
+    margin-left: 400px;
+
+}
+
+#slider img {
+    max-width: 100%;
+}
+
+
+nav#menu{
+    border-bottom: black solid;
+}
+
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    top: 10px;
+    left: 500px;
+    padding-left: 120px;
+}
+
+nav#menu li{
+    color: black;
+    display: inline-block;
+    border-style: groove;
+    border-color: black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0px; 
+    transition: 1s;
+}
+
+nav#menu li:hover{
+    background-color:black;
+    color: white;
+    text-decoration:underline;
+}
+
+#historia{
+    width: 600px;
+    display: block;
+    float: left;
+    border-right: 3px solid black ;
+    padding-right: 20px;
+}
+
+aside h1{
+    padding-left:635px;
+    
+}
+
+aside h2{
+    padding-left: 635px;
+    
+}
+
+#hino01 iframe{
+    width: 350px;
+    height: 200px;
+    padding-left: 10px;
+}
+
+#hino02 iframe{
+    width: 350px;
+    height: 200px;
+    padding-left: 10px;
+}
+
+#rodape{
+    clear: both;
+    border-top: black solid 3px;
+}
+
+#rodape p{
+    text-align: center;
+}
+
+#rodape ul{
+    text-align: center;
+}
+
+#rodape li{
+    display: inline-block;
+    padding: 10px;
+}
+
+#rodape li a{
+    color: black;
+    text-decoration: none;
+}
